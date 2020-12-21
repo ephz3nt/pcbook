@@ -6,4 +6,6 @@ fmt:
 	go fmt ./...
 run:fmt
 	go run main.go
-.PHONY: gen
+test:fmt
+	go test -cover -race ./...
+.PHONY: gen clean fmt run test

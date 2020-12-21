@@ -3,11 +3,13 @@ syntax = "proto3";
 package pcbook;
 
 option go_package = ".;pb";
+option java_package = "com.github.ephz3nt.pcbook.pb";
+option java_multiple_files = true;
 
 message Screen {
   message Resolution {
     uint32 width = 1;
-    uint32 weight = 2;
+    uint32 height = 2;
   }
 
   enum Panel {

@@ -1,0 +1,62 @@
+{
+  "id": "9f322cd9-309a-4d3f-9f5a-931f0b1fee71",
+  "brand": "Lenovo",
+  "name": "Thinkpad X1",
+  "cpu": {
+    "brand": "Intel",
+    "name": "i9-7980XE",
+    "number_cores": 2,
+    "number_threads": 4,
+    "min_ghz": 2.6620971123395805,
+    "max_ghz": 3.2034327285253648
+  },
+  "ram": {
+    "value": "19",
+    "uint": "GIGABYTE"
+  },
+  "gpus": [
+    {
+      "brand": "NVIDIA",
+      "name": "RTX 2060 SUPER",
+      "min_ghz": 1.1603409438351981,
+      "max_ghz": 1.8862255581230758,
+      "memory": {
+        "value": "4",
+        "uint": "GIGABYTE"
+      }
+    }
+  ],
+  "storages": [
+    {
+      "driver": "SSD",
+      "memory": {
+        "value": "285",
+        "uint": "GIGABYTE"
+      }
+    },
+    {
+      "driver": "HDD",
+      "memory": {
+        "value": "4",
+        "uint": "TERABYTE"
+      }
+    }
+  ],
+  "screen": {
+    "size_inch": 14.0992775,
+    "resolution": {
+      "width": 5102,
+      "height": 2870
+    },
+    "panel": "OLED",
+    "multitouch": true
+  },
+  "keyboard": {
+    "layout": "AZERTY",
+    "backlit": false
+  },
+  "weight_kg": 2.032898937227538,
+  "price_usd": 2323.076306821279,
+  "release_year": 2015,
+  "updated_at": "2020-12-21T09:49:16.688215272Z"
+}
